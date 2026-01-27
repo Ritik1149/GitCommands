@@ -17,6 +17,6 @@
     <li>git remote set-url origin ADDRESS (used to <I>rename</I> the link of targeted remote repo)</li>
     <li>git remote -v (used to check the address of currently targeted remote repo)</li>
     <li>git tag -a TAG-NAME -m "MESSAGE" (used to add a tag with the last commit)</li>
-    <li>git tag (used to display all given tags till now</li>
+    <li>git tag (used to display all given tags till now)</li>
     <li>git show TAG-NAME (used to display all information regarding the specified tag)</li>
 </ol>
