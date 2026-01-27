@@ -1,0 +1,2 @@
+username = nvm02
+password = rdy03
