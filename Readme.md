@@ -1,6 +1,7 @@
 <h1>Git Commands</h1>
 <ol>
     <li>git --version</li>
+    <li>git init (creates a git repository)</li>
     <li>git status (check for undone commits)</li>
     <li>git add FILE-NAME (to track file)</li>
     <li>git commit -m "MESSAGE" (to save changes)</li>
