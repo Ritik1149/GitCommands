@@ -11,4 +11,7 @@
     <li>git rm --cached FILE-NAME (to remove a file from git's staged repository)</li>
     <li>git branch -M NAME-OF-BRANCH (used to rename a branch)</li>
     <li>git clone ADDRESS (used to copy a git repository to a different location)</li>
+    <li>git remote add origin ADDRESS (used to add a remote repository as target)</li>
+    <li>git push -u origin main (used to send local repository data <I>from main branch</I> to remotely targeted repository)</li>
+    <li>
 </ol>
