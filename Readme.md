@@ -1,3 +1,10 @@
+<Style>
+    li
+    {
+        list-style-type: Upper-roman;
+    }
+</style>
+
 <h1>Git Commands</h1>
 <ol>
     <li>git --version</li>
