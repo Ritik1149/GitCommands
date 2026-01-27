@@ -13,5 +13,7 @@
     <li>git clone ADDRESS (used to copy a git repository to a different location)</li>
     <li>git remote add origin ADDRESS (used to add a remote repository as target)</li>
     <li>git push -u origin main (used to send local repository data <I>from main branch</I> to remotely targeted repository)</li>
-    <li>
+    <li>git remote remove origin (used to remove the link of targeted remote repo)</li>
+    <li>git remote set-url origin ADDRESS (used to <I>rename</I> the link of targeted remote repo)</li>
+    <li>git remote -v (used to check the address of currently targeted remote repo)</li>
 </ol>
