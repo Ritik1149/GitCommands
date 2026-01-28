@@ -15,7 +15,7 @@
     <li>git branch -M NAME-OF-BRANCH <ul type= "disc"><li>used to rename a branch</li></ul></li>
     <li>git clone ADDRESS <ul type= "disc"><li>used to copy a git repository to a different location</li></ul></li>
     <li>git remote add origin ADDRESS <ul type= "disc"><li>used to add a remote repository as target</li><li><i><b>origin</b></i> is a name given to that remote repository, and so can be changed anytime.</li></ul></li>
-    <li>git push -u origin main <ul type= "disc"><li>used to send local repository data <I>from main branch</I> to remotely targeted repository</li></ul></li>
+    <li>git push -u origin main <ul type= "disc"><li>used to send local repository data from <i><b>main branch</b></I> to <b><i>origin</i></b> repository [remote repo]</li></ul></li>
     <li>git remote remove origin <ul type= "disc"><li>used to remove the link of targeted remote repo</li></ul></li>
     <li>git remote set-url origin ADDRESS <ul type= "disc"><li>used to <b><I>rename</I></b> the link of targeted remote repo</li></ul></li>
     <li>git remote -v <ul type= "disc"><li>used to check the address of currently targeted remote repo</li></ul></li>
