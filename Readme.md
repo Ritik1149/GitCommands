@@ -1,5 +1,5 @@
 <h1>GitCommands</h1>
-<ol type="A">
+<ol type="01">
     <li>git --version</li>
     <li>git init <ul type= "disc"><li>creates a git repository</li></ul></li>
     <li>git status <ul type= "disc"><li>checks for undone commits</li></ul></li>
@@ -28,5 +28,7 @@
     <li>git branch BRANCH-NAME<ul type= "disc"><li>It also creates a new branch, but <b><i>stays</i></b> on the current branch</li></ul></li>
     <li>git switch - <ul type= "disc"><li>switches to the last branch you were at before coming here [to the current branch]</li></ul></li>
     <li>git branch -d BRANCH-NAME <ul type= "disc"><li>Deletes the specified branch</li></ul></li>
-    <li>git merge TARGET-BRANCH <ul type= "disc"><li>Merges the commits of TARGET-BRANCH <b>to</b> the branch you are at</li><li>In case of a conflict, you have to resolve that conflict (git helps you) and then you have to again <i>add and commit</i> the changed file</li></ul><li>
+    <li>git merge TARGET-BRANCH <ul type= "disc"><li>Merges the commits of TARGET-BRANCH <b>to</b> the branch you are at</li><li>In case of a conflict, you have to resolve that conflict (git helps you) and then you have to again <i>add and commit</i> the changed file</li></ul></li>
+    <li>git fetch<ul type="disc"><li>Fetches all information from remote git repository to local git repository, but in order to see the possible changes, we will have to use <b><i>git log</i></b> command.</li></ul></li>
+    <li>git pull [from] [to]<ul><li>Used to pull the remote changes into local machine</li></ul></li>
 </ol>
