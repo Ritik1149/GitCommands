@@ -1,5 +1,5 @@
 <h1>GitCommands</h1>
-<ol type="I">
+<ol type="A">
     <li>git --version</li>
     <li>git init <ul type= "disc"><li>creates a git repository</li></ul></li>
     <li>git status <ul type= "disc"><li>checks for undone commits</li></ul></li>
