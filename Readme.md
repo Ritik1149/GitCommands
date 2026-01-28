@@ -22,4 +22,8 @@
     <li>git tag (used to display all given tags till now)</li>
     <li>git show TAG-NAME (used to display all information regarding the specified tag)</li>
     <li>git checkout -b BRANCH-NAME (Creates and switches to the BRANCH-NAME)</li>
+    <li>git switch -c BRANCH-NAME (Same as above)</li>
+    <li>git branch [--all] (shows list of all local branches, and all local+global branches if --all is given)</li>
+    <li>git switch - (switches to the last branch you were at before coming here [to the current branch])</li>
+    <li>git branch -d BRANCH-NAME (Deletes the specified branch)</li>
 </ol>
