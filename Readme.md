@@ -5,6 +5,7 @@
     <li>git status (check for undone commits)</li>
     <li>git log (displays the whole commit history)</li>
     <li>git log --pretty=oneline (display entire commit history, but only with commit number and associated message)</li>
+    <li>git log --graph (Displays the commit history in a <b><I>Visual</b></I> form [For remote repos and different branches])</li>
     <li>git add FILE-NAME (to track file)</li>
     <li>git commit -m "MESSAGE" (to save changes)</li>
     <li>git diff (to see changes in file of Working directory with the last commit)</li>
