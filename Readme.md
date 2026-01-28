@@ -1,4 +1,4 @@
-# GitCommands
+<h1>GitCommands</h1>
 <ol>
     <li>git --version</li>
     <li>git init (creates a git repository)</li>
