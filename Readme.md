@@ -1,5 +1,5 @@
 <h1>GitCommands</h1>
-<ol type="I">
+<ol type="A">
     <li>git --version</li>
     <li>git init <ul type= "disc"><li>creates a git repository</li></ul></li>
     <li>git status <ul type= "disc"><li>checks for undone commits</li></ul></li>
@@ -14,8 +14,8 @@
     <li>git rm --cached FILE-NAME <ul type= "disc"><li>to remove a file from git's staged repository</li></ul></li>
     <li>git branch -M NAME-OF-BRANCH <ul type= "disc"><li>used to rename a branch</li></ul></li>
     <li>git clone ADDRESS <ul type= "disc"><li>used to copy a git repository to a different location</li></ul></li>
-    <li>git remote add origin ADDRESS <ul type= "disc"><li>used to add a remote repository as target</li></ul></li>
-    <li>git push -u origin main <ul type= "disc"><li>used to send local repository data <I>from main branch</I> to remotely targeted repository</li></ul></li>
+    <li>git remote add origin ADDRESS <ul type= "disc"><li>used to add a remote repository as target</li><li><i><b>origin</b></i> is a name given to that remote repository, and so can be changed anytime.</li></ul></li>
+    <li>git push -u origin main <ul type= "disc"><li>used to send local repository data from <i><b>main branch</b></I> to <b><i>origin</i></b> repository [remote repo]</li></ul></li>
     <li>git remote remove origin <ul type= "disc"><li>used to remove the link of targeted remote repo</li></ul></li>
     <li>git remote set-url origin ADDRESS <ul type= "disc"><li>used to <b><I>rename</I></b> the link of targeted remote repo</li></ul></li>
     <li>git remote -v <ul type= "disc"><li>used to check the address of currently targeted remote repo</li></ul></li>
@@ -28,6 +28,5 @@
     <li>git branch BRANCH-NAME<ul type= "disc"><li>It also creates a new branch, but <b><i>stays</i></b> on the current branch</li></ul></li>
     <li>git switch - <ul type= "disc"><li>switches to the last branch you were at before coming here [to the current branch]</li></ul></li>
     <li>git branch -d BRANCH-NAME <ul type= "disc"><li>Deletes the specified branch</li></ul></li>
-    <li>git merge TARGET-BRANCH <ul type= "disc"><li>Merges the commits of TARGET-BRANCH <b>to</b> the branch you are at</li></ul></li>
-    <ul type= "disc"><li>In case of a conflict, you have to resolve that conflict (git helps you) and then you have to again <i>add and commit</i> the changed file</li></ul>
+    <li>git merge TARGET-BRANCH <ul type= "disc"><li>Merges the commits of TARGET-BRANCH <b>to</b> the branch you are at</li><li>In case of a conflict, you have to resolve that conflict (git helps you) and then you have to again <i>add and commit</i> the changed file</li></ul><li>
 </ol>
