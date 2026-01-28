@@ -3,6 +3,7 @@
     <li>git --version</li>
     <li>git init (creates a git repository)</li>
     <li>git status (check for undone commits)</li>
+    <li>git log (displays the whole commit history)</li>
     <li>git add FILE-NAME (to track file)</li>
     <li>git commit -m "MESSAGE" (to save changes)</li>
     <li>git diff (to see changes in file of Working directory with the last commit)</li>
