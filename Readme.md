@@ -2,7 +2,7 @@
 <ol>
     <li>git --version</li>
     <li>git init <ul><li>creates a git repository</li></ul></li>
-    <li>git status <ul><li>check for undone commits</li></ul></li>
+    <li>git status <ul><li>checks for undone commits</li></ul></li>
     <li>git log <ul><li>displays the whole commit history</li></ul></li>
     <li>git log --pretty=oneline <ul><li>display entire commit history, but only with commit number and associated message</li></ul></li>
     <li>git log --graph <ul><li>Displays the commit history in a <b><I>Visual</I></b> form [For remote repos and different branches]</li></ul></li>
@@ -25,6 +25,7 @@
     <li>git checkout -b BRANCH-NAME <ul><li>Creates and switches to the BRANCH-NAME</li></ul></li>
     <li>git switch -c BRANCH-NAME <ul><li>Same as above</li></ul></li>
     <li>git branch [--all] <ul><li>shows list of all local branches, and all local+global branches if --all is given</li></ul></li>
+    <li>git branch BRANCH-NAME<ul><li>It also creates a new branch, but <b><i>stays</i></b> on the current branch</li></ul></li>
     <li>git switch - <ul><li>switches to the last branch you were at before coming here [to the current branch]</li></ul></li>
     <li>git branch -d BRANCH-NAME <ul><li>Deletes the specified branch</li></ul></li>
     <li>git merge TARGET-BRANCH <ul><li>Merges the commits of TARGET-BRANCH <b>to</b> the branch you are at</li></ul></li>
